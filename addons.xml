@@ -1,40 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
-<addon id="plugin.video.hls.playlist.player"
-version="0.0.2"
-name="HLS Playlist Player"
-provider-name="primaeval">
-<requires>
-  <import addon="xbmc.python" version="2.20.0"/>
-  <import addon="script.module.xbmcswift2" version="2.4.0"/>
-  <import addon="script.module.requests" version="2.9.1" />
-</requires>
-<extension point="xbmc.python.pluginsource" library="main.py">
-  <provides>video</provides>
-</extension>
-<extension point="xbmc.service" library="service.py" start="login"/>
-<extension point="xbmc.addon.metadata">
-  <summary lang="en">Autoplay HLS stream based on Bandwidth</summary>
-  <description lang="en">Add Playlists containing HLS stream links. Play them with an optional max bandwidth limit. Recreates the functionality of Jarvis.</description>
-  <disclaimer lang="en">.</disclaimer>
-</extension>
-</addon>
-
-<addon id="plugin.video.m3u.player" name="Simple M3U Player" version="1.0.5" provider-name="MrStealth">
-  <requires>
-    <import addon="xbmc.python" version="2.0"/>
-    <import addon="script.module.xbmc.helpers" version="2.0.1"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" provides="video" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Simple M3U Player</summary>
-    <description>For personal use only</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.sevnplayaddon" name="[B]Se[COLOR lawngreen]7[/COLOR]n [COLOR gold]P[/COLOR][COLOR deepskyblue]l[/COLOR][COLOR lawngreen]a[/COLOR][COLOR hotpink]y[/COLOR]Addon[/B]" version="1.7.2" provider-name="RepoSevnPlay">
 <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -79,3 +43,38 @@ provider-name="primaeval">
 	</extension>
 </addon>
 </addons>
+<addons>
+<addon id="plugin.video.hls.playlist.player"
+version="0.0.2"
+name="HLS Playlist Player"
+provider-name="primaeval">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.service" library="service.py" start="login"/>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Autoplay HLS stream based on Bandwidth</summary>
+  <description lang="en">Add Playlists containing HLS stream links. Play them with an optional max bandwidth limit. Recreates the functionality of Jarvis.</description>
+  <disclaimer lang="en">.</disclaimer>
+</extension>
+</addon>
+
+<addon id="plugin.video.m3u.player" name="Simple M3U Player" version="1.0.5" provider-name="MrStealth">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+    <import addon="script.module.xbmc.helpers" version="2.0.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" provides="video" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Simple M3U Player</summary>
+    <description>For personal use only</description>
+    <platform>all</platform>
+  </extension>
+</addon>
