@@ -21,10 +21,6 @@
 <extension point="xbmc.python.pluginsource" library="default.py"> 
 <provides>video</provides>
 </extension>                   
-<extension point="xbmc.addon.repository" name="[B]Se[COLOR lawngreen]7[/COLOR]n [COLOR gold]P[/COLOR][COLOR deepskyblue]l[/COLOR][COLOR lawngreen]a[/COLOR][COLOR hotpink]y[/COLOR]Addon[/B]">
-<info compressed="true">https://raw.githubusercontent.com/playrepo/7playrepo/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/playrepo/7playrepo/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/playrepo/7playrepo/master</datadir>
 <extension point="xbmc.addon.metadata">
 <summary lang="en">[B]FEITO PARA FAMILIA![/B]</summary>
 <description lang="en">[B]O AUTOR NAO E RESPONSAVEL POR QUALQUER CONTEUDOS ENCONTRADO NESSE ADDON[/B]</description>
