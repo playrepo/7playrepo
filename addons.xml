@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.sevnplayaddon" name="[B]Se[COLOR lawngreen]7[/COLOR]n[COLOR gold]P[/COLOR][COLOR deepskyblue]l[/COLOR][COLOR lawngreen]a[/COLOR][COLOR hotpink]y[/COLOR]Addon[/B]" version="1.7.2" provider-name="Group [B]Se[COLOR lawngreen]7[/COLOR]n [COLOR gold]P[/COLOR][COLOR deepskyblue]l[/COLOR][COLOR lawngreen]a[/COLOR][COLOR hotpink]y[/COLOR]">
+<addon id="plugin.video.sevnplayaddon" name="[B]Se[COLOR lawngreen]7[/COLOR]n[COLOR gold]P[/COLOR][COLOR deepskyblue]l[/COLOR][COLOR lawngreen]a[/COLOR][COLOR hotpink]y[/COLOR]Addon[/B]" version="1.4.2" provider-name="Group [B]Se[COLOR lawngreen]7[/COLOR]n [COLOR gold]P[/COLOR][COLOR deepskyblue]l[/COLOR][COLOR lawngreen]a[/COLOR][COLOR hotpink]y[/COLOR]">
 <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.t0mm0.common"/>
@@ -23,9 +23,9 @@
 <provides>video</provides>
 </extension>
 <extension point="xbmc.addon.repository" name="[B]Se[COLOR lawngreen]7[/COLOR]n [COLOR gold]P[/COLOR][COLOR deepskyblue]l[/COLOR][COLOR lawngreen]a[/COLOR][COLOR hotpink]y[/COLOR]Addon[/B]">
-<info compressed="true">https://github.com/addons.xml</info>
-			<checksum>https://github.com/addons.xml.md5</checksum>
-			<datadir zip="true">https://github.com/raw/master</datadir>
+<info compressed="true">https://raw.githubusercontent.com/playrepo/7playrepo/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/playrepo/7playrepo/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/playrepo/7playrepo/master</datadir>
 <extension point="xbmc.addon.metadata">
 <summary lang="en">[B]FEITO PARA FAMILIA![/B]</summary>
 <description lang="en">[B]O AUTOR NAO E RESPONSAVEL POR QUALQUER CONTEUDOS ENCONTRADO NESSE ADDON[/B]</description>
@@ -48,9 +48,9 @@
 
 	<extension point="xbmc.addon.repository" name=".Vikings Repositorio">
 
-		<info compressed="true">https://github.com/</info>
-			<checksum>https://github.com/</checksum>
-			<datadir zip="true">https://github.com/</datadir>
+		<info compressed="true">https://raw.githubusercontent.com/playrepo/7playrepo/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/playrepo/7playrepo/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/playrepo/7playrepo/master</datadir>
 	</extension>
 
 	<extension point="xbmc.addon.metadata">

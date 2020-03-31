@@ -12,9 +12,9 @@
 	
 	<extension point="xbmc.addon.repository" name=".Vikings Repositorio">
 		
-		<info compressed="true">https://github.com/</info>
-			<checksum>https://github.com/</checksum>
-			<datadir zip="true">https://github.com/</datadir>
+		<info compressed="true">https://raw.githubusercontent.com/playrepo/7playrepo/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/playrepo/7playrepo/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/playrepo/7playrepo/master</datadir>
 	</extension>
 		
 	<extension point="xbmc.addon.metadata">
