@@ -1,2 +1,2 @@
-# repositorio.apollo
- Repositorio Teste
+# 7playrepo
+	Repositório Oficial SevnPlay Addon
